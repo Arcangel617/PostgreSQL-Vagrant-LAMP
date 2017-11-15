@@ -63,11 +63,11 @@ ejecutamos la siguiente instrucción:
 ```
 createuser --interactive -P nombre_de_tu_rol
 ```
-> Como vamos a necesitar poder gestionar por completo nuestra base de datos, tendremos que crear un super usuario.
-> el flag **--interactive** nos solicitarán una serie de datos.
-> el flag **-P** se  solicitará un password con el cual accederemos después.
+> Como vamos a necesitar poder gestionar por completo nuestra base de datos, tendremos que crear un super usuario.  
+> El flag **--interactive** nos solicitará una serie de datos.  
+> El flag **-P** se  solicitará un password con el cual accederemos después.  
 > **nombre_de_tu_rol** sería el usuario de nuestra base de datos.
 
 Listo. Ya tenemos configurado postgres.
-Para acceder bastará con ingresar a [http://localhost:8080](http://localhost:8080)
+Para acceder bastará con ingresar a [http://localhost:8080/phppgadmin](http://localhost:8080/phppgadmin)
 > **Nota:** El puerto variará en base a la configuración que cada uno decida utilizar para vagrant.
